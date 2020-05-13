@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- jdbc database connection settings -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false</property>
+		<property name="connection.username">hbstudent</property>
+		<property name="connection.password">hbstudent</property>
+        <!-- <property name="hibernate.current_session_context_class">thread</property> -->
+        
+
+		<!-- Jdbc pool size -->
+		<property name="conneciton.pool_size">1</property>
+
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- Assume hb_student_tracker is the database name -->
+
+
+
+
+		<property name="show_sql">true</property>
+		<mapping class="com.demo.bean.Student"/>
+		<mapping class="com.demo.bean.StudentDetails"/>
+		<mapping class="com.demo.bean.Course"/>
+		<mapping class="com.demo.bean.Review"/>
+		<mapping class="com.demo.bean.Instructor"/>
+
+		<!-- List of XML mapping files -->
+		<!-- <mapping resource = "Employee.hbm.xml"/> -->
+	</session-factory>
+</hibernate-configuration>

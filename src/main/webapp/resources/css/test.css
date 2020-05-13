@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #f0f1ea;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+h1 {
+    color: #400040;
+    text-align: center;
+}
+img {
+	float:right;
+	color: #400040;
+	margin-top: -20px;
+}
+form select{
+	color: #400040;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.break{
+	
+}
+.cssError{
+	text-decoration:blink;
+	color :red;
+}
+.cssField{
+    width: 6%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+.form-control{
+	display: initial;
+    width: 25%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+}
+.btn{
+	background-color:white;
+	width: 10%;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.nector-bottom {
+	color: #fff!important;
+    font-size: 12px;
+    padding: 13px 18px;
+    position: relative;
+    text-transform: uppercase;
+    top: -3px;
+    margin-bottom: 10px;
+    opacity: .75;
+    line-height: 20px;
+    background-color: #0a7768;
+    display: inline-block;
+    margin-left:5%;
+    margin-top: 25px;
+    width: 40%;
+    
+}
+.align-center{
+	align-self: center;
+}
+.my-div {
+    /* position:relative; */
+    left: 10%;
+    width:40%;
+    height:18em;
+    margin-top: 120px; /*set to a negative number 1/2 of your height*/
+    margin-left: 20%; /*set to a negative number 1/2 of your width*/
+}
+.text-label{
+	font-size: 15px;
+}
+.width-50{
+	margin-left: 20%;
+	max-width: 20%;
+	display: inline;
+}
+.margin-right{
+	margin-right: 100px;
+}
+.loader {
+  width: 100px;
+  height: 101px;
+  border: 8px solid;
+  border-top-color: hsl(154,100%,31%);
+  border-left-color: hsl(216,87%,52%);
+  border-bottom-color: hsl(8,66%,50%);
+  border-right-color: hsl(42,100%,51%);
+  border-radius: 50%;
+  transform: rotate(45deg);
+  margin: 30px auto;
+}
+p {
+  display: inline-block;
+  width: 107px;
+  height: 107px;
+  /* The background is used to specify the border background */
+  background: linear-gradient(90deg, hsla(212,67%,36%,0) 0%,
+                                         hsla(207,69%,51%,0) 76%,
+                                         hsla(0,0%,100%,1) 85%,
+                                         hsla(0,0%,100%,1) 100%); /* W3C */
+  /* Background origin is the padding box by default.
+  Override to make the background cover the border as well. */
+  -moz-background-origin: border;
+  background-origin: border-box;
+  /* A transparent border determines the width */
+  border: 6px solid transparent;
+  border-radius: 50%;
+  box-shadow: inset -999px 0 0 #fff; /* The background color */
+  transform: translate(-8px, 55px);
+  /* animation: loading 1s linear infinite; */
+}
+
+@keyframes loading {
+    0% { transform: translate(-9px, -25px) rotate(0deg); }
+  100% { transform: translate(-9px, -25px) rotate(360deg); }
+}
+
