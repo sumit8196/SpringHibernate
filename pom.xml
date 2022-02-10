@@ -110,7 +110,7 @@
 					<artifactId>jboss-logging</artifactId>
 				</exclusion>
 			</exclusions>
-			<version>5.4.13.Final</version>
+			<version>5.4.24.Final</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
